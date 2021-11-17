@@ -7,4 +7,51 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+## Optimización de Colas o Filas Installación
+
+#colando la aplicación
+
+```shell
+$ git clone https://github.com/codepiter/cola.git
+```
+
+#cree y edite el .env
+
+```shell
+$ cp .env.example .env
+```
+
+# Instalando dependencias de Laravel
+
+```shell
+>composer install
+```
+
+# Generando key a archivo .env
+
+```shell
+>php artisan key:generate
+```
+
+# Editar el archivo  \config\database.php y cambie los parametros que se mencionan.
+
+'mysql' => [
+		'charset' => 'utf8',      
+		'collation' => 'utf8_unicode_ci',
+		'engine' => 'InnoDB',
+        
+# Generando tablas necesarias mediante migración (importante pasarle --seed)
+
+```shell
+>php artisan migrate:fresh --seed
+```
+
+# Instalando otras dependencias
+
+```shell
+>npm install
+```
+
+```shell
+>npm run dev
+```
