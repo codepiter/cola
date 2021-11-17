@@ -12,7 +12,7 @@
 
 Sistema para optimizar el tiempo de espera de los clientes que soliciten un ticket asignándolo a la cola de atención con menor tiempo de espera.
 
-Se cuenta con 2 colas con tiempo fijo de 2 minutos y 3 minutos, una vez asignada el cliente a una de estas, posteriormente se puede editar este registro para marcar como atendido, por su parte al cambiar el estatus de atendido se genera un listado el cual se puede eliminar de manera definitiva.
+Se cuenta con 2 colas con tiempo fijo de 2 minutos y 3 minutos, una vez asignado el cliente a una de estas, posteriormente se puede editar este registro para marcar como atendido, por su parte al cambiar el estatus a atendido se genera un listado el cual se puede eliminar de manera definitiva.
 
 
 ## Instalación
