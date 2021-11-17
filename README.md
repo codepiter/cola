@@ -9,6 +9,12 @@
 
 
 # Ticket de atención al Cliente
+
+Sistema para optimizar el tiempo de espera de los clientes que soliciten un ticket asignandoloo a la cola de atención con menor tiempo de espera.
+
+
+
+# Ticket de atención al Cliente
 ## Installación
 
 ### Clonando la aplicación
