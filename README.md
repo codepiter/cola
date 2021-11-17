@@ -7,9 +7,11 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-# Installación
 
-### Clanando la aplicación
+#Ticket de atención al Cliente
+## Installación
+
+### Clonando la aplicación
 
 ```shell
 $ git clone https://github.com/codepiter/cola.git
