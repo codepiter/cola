@@ -8,7 +8,7 @@
 </p>
 
 
-#Ticket de atención al Cliente
+# Ticket de atención al Cliente
 ## Installación
 
 ### Clonando la aplicación
