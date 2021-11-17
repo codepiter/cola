@@ -15,7 +15,7 @@
 $ git clone https://github.com/codepiter/cola.git
 ```
 
-### Cree y edite el .env
+### Ingrese a su nuevo directorio y cree y edite el .env
 
 ```shell
 $ cp .env.example .env
@@ -33,11 +33,11 @@ $ composer install
 $ php artisan key:generate
 ```
 
-### Cree una base de datos y haga la conexion necesaria en el archivo .env
+### Cree una base de datos y haga los cambios necesarios en el archivo .env para lograr la conexion
 
 
         
-### Generando tablas necesarias mediante migración (importante pasarle --seed)
+### Generando tablas necesarias mediante migración (previamente ya usted creó la base de datos)
 
 ```shell
 $ php artisan migrate:fresh --seed
