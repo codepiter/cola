@@ -24,34 +24,31 @@ $ cp .env.example .env
 ### Instalando dependencias de Laravel
 
 ```shell
->composer install
+$ composer install
 ```
 
 ### Generando key a archivo .env
 
 ```shell
->php artisan key:generate
+$ php artisan key:generate
 ```
 
-### Editar el archivo  \config\database.php y cambie los parametros que se mencionan.
+### Cree una base de datos y haga la conexion necesaria en el archivo .env
 
-'mysql' => [
-		'charset' => 'utf8',      
-		'collation' => 'utf8_unicode_ci',
-		'engine' => 'InnoDB',
+
         
 ### Generando tablas necesarias mediante migración (importante pasarle --seed)
 
 ```shell
->php artisan migrate:fresh --seed
+$ php artisan migrate:fresh --seed
 ```
 
 ### Instalando otras dependencias
 
 ```shell
->npm install
+$ npm install
 ```
 
 ```shell
->npm run dev
+$ npm run dev
 ```
